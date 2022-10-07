@@ -1,0 +1,101 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c227ee782ef9fd922c29ec20426f31d9",
+    "packages": [
+        {
+            "name": "alix/framework",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Mohammad1745/framework.git",
+                "reference": "7e7182a826ba936203af4d12243416ac3a4aa380"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Mohammad1745/framework/zipball/7e7182a826ba936203af4d12243416ac3a4aa380",
+                "reference": "7e7182a826ba936203af4d12243416ac3a4aa380",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/Alix/Framework/Helpers/helper.php"
+                ],
+                "psr-4": {
+                    "Framework\\": "src/Alix/Framework"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mohammad1745",
+                    "email": "mdali2016.227@gmail.com"
+                }
+            ],
+            "description": "Framework",
+            "support": {
+                "issues": "https://github.com/Mohammad1745/framework/issues",
+                "source": "https://github.com/Mohammad1745/framework/tree/master"
+            },
+            "time": "2022-10-07T09:52:00+00:00"
+        },
+        {
+            "name": "alix/math",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Mohammad1745/math.git",
+                "reference": "a0f754d50f384f5515a075e4fb3121a06f72037e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Mohammad1745/math/zipball/a0f754d50f384f5515a075e4fb3121a06f72037e",
+                "reference": "a0f754d50f384f5515a075e4fb3121a06f72037e",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Alix\\Math\\": "src/Alix/Math"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mohammad1745",
+                    "email": "mdali2016.227@gmail.com"
+                }
+            ],
+            "description": "Math",
+            "support": {
+                "issues": "https://github.com/Mohammad1745/math/issues",
+                "source": "https://github.com/Mohammad1745/math/tree/master"
+            },
+            "time": "2022-10-04T09:42:34+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "alix/math": 20,
+        "alix/framework": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

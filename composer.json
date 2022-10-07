@@ -1,0 +1,22 @@
+{
+    "name": "ali/web-app-with-routing",
+    "description": "Routing",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mohammad1745",
+            "email": "mdali2016.227@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "alix/math": "dev-master",
+        "alix/framework": "dev-master"
+    }
+}
